@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        // Read the three integers from stdin
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        
+        // It's a good practice to close the scanner to prevent resource leaks
+        scan.close();
+
+        // Print each integer on a new line to stdout
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
